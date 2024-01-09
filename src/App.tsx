@@ -1,23 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>NMLess.xyz</h1>
+        <p>Coming soon...</p>
+
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Check out{" "}
+          <a
+            href="https://exploresverige.nmless.xyz"
+            style={{ color: "white", textDecoration: "underline" }}
+          >
+            Explore Sverige
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <footer>
+          <p>© 2021 NMLess.xyz</p>
+          <p>
+            Created by{" "}
+            <a
+              href="https://github.com/HampusAndersson01"
+              style={{ color: "white", textDecoration: "underline" }}
+              target="_blank"
+            >
+              Hampus Andersson
+            </a>
+          </p>
+        </footer>
       </header>
     </div>
   );
